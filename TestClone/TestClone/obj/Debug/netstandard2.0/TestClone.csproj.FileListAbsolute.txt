@@ -1,0 +1,14 @@
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\bin\Debug\netstandard2.0\TestClone.deps.json
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\bin\Debug\netstandard2.0\TestClone.dll
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\bin\Debug\netstandard2.0\ref\TestClone.dll
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\bin\Debug\netstandard2.0\TestClone.pdb
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.csprojAssemblyReference.cache
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.AssemblyInfoInputs.cache
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.AssemblyInfo.cs
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.csproj.CoreCompileInputs.cache
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.dll
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\ref\TestClone.dll
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.pdb

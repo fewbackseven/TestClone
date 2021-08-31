@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"                          
+             x:Class="TestClone.MainPage"
+             BackgroundColor="Beige">
+  
+    <StackLayout>
+        <Frame BackgroundColor="White" HeightRequest="30" WidthRequest="30" CornerRadius="0" HasShadow="True">
+             <StackLayout Orientation="Horizontal" >
+                <Image x:Name="File_Image" Source="book1.png" Aspect="AspectFill" HeightRequest="30" WidthRequest="30"></Image>
+                <Label Text="KHATABOOK!" HorizontalTextAlignment="Start" TextColor="PaleVioletRed" FontSize="24" FontAttributes="Bold"/>
+             </StackLayout>
+        </Frame>
+
+        <StackLayout Margin="20,0,20,0" Padding="0,20,0,0">
+            <Frame BorderColor="DarkMagenta" Padding="0,0,0,0">
+                <Entry  x:Name="Shop_Name" Margin="5,0,0,0" PlaceholderColor="Black" Placeholder="Enter shop or business name" TextColor="Black" Opacity="0.5" ></Entry>
+            </Frame>
+
+        </StackLayout>
+
+            <StackLayout VerticalOptions="End" Margin="20,0,20,0" Padding="0,420,0,0">
+                <Button Text="Create" Font="15" BackgroundColor="Blue" Clicked="OnCreateBtnClicked" />
+            </StackLayout>
+            <!--<Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="https://aka.ms/xamarin-quickstart" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>-->
+    </StackLayout>
+    
+  </ContentPage>
