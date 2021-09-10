@@ -610,3 +610,6 @@ C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.Android\obj\De
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.Android\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.Android\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.Android\obj\Debug\100\res\drawable\book1.png
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.Android\obj\Debug\100\res\drawable\money.png
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.Android\obj\Debug\100\res\drawable\rupee.png
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.Android\obj\Debug\100\res\drawable\home.png

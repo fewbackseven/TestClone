@@ -4,7 +4,6 @@ C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\bin\Debug\nets
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\bin\Debug\netstandard2.0\TestClone.pdb
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.csprojAssemblyReference.cache
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.AssemblyInfoInputs.cache
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.AssemblyInfo.cs
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.csproj.CoreCompileInputs.cache
@@ -12,3 +11,8 @@ C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\nets
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.dll
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\ref\TestClone.dll
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\TestClone.pdb
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\Views\MainPage1.xaml.g.cs
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\Views\MoneyPage.xaml.g.cs
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone\obj\Debug\netstandard2.0\Views\MorePage.xaml.g.cs

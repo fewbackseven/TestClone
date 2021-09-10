@@ -1,6 +1,9 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using TestClone.Views;
+using TestClone.ViewModel;
+using System.Collections.Generic;
 
 namespace TestClone
 {
@@ -9,8 +12,16 @@ namespace TestClone
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainPage();
+            List<string> KhataBook=  new List<string>();
+            HomeViewModel hs = new HomeViewModel();
+            KhataBook = hs.Khatabook;
+            
+            /*
+            if (KhataBook==null||KhataBook.Count==0)
+                MainPage = new MainPage();
+            else
+            */
+                MainPage = new MainPage1();
         }
 
         protected override void OnStart()

@@ -11,14 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Resources\book1.png" />
     <None Remove="Resources\Fonts\FABrands.otf" />
     <None Remove="Resources\Fonts\FARegular.otf" />
     <None Remove="Resources\Fonts\FASolid.otf" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Resources\book1.png" />
     <EmbeddedResource Include="Resources\Fonts\FABrands.otf" />
     <EmbeddedResource Include="Resources\Fonts\FARegular.otf" />
     <EmbeddedResource Include="Resources\Fonts\FASolid.otf" />
@@ -27,5 +25,20 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2083" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MainPage1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MoneyPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\MorePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>
