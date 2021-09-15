@@ -1,12 +1,182 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="WhiteSmoke"
+             
              x:Class="TestClone.Views.MorePage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to More!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+
+
+    <StackLayout Spacing="0">
+        <Frame BackgroundColor="#99CCFF" Margin="0"  CornerRadius="0" HasShadow="False">
+            <StackLayout  Orientation="Horizontal"    >
+                <Image x:Name="File_Image" Source="book1.png" Aspect="AspectFit" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="30" WidthRequest="30" ></Image>
+                <Label x:Name="Book" Text="Office" HorizontalTextAlignment="Start" VerticalOptions="Start" HorizontalOptions="StartAndExpand" TextColor="PaleVioletRed" FontSize="20" FontAttributes="Bold"/>
+                
+            </StackLayout>
+        </Frame>
+        <ScrollView x:Name="MyScroll" >
+            <StackLayout Spacing="0">
+            <Frame BackgroundColor="White" Margin="0" >
+                <StackLayout Orientation="Horizontal" Padding="0" Margin="0" >
+                    <Frame BackgroundColor="Beige" CornerRadius="70" Padding="0" Margin="3,0,0,0" WidthRequest="60" HeightRequest="30">
+                        <Label Text="O" TextColor="Black" FontSize="24" Padding="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                    </Frame>
+                    <StackLayout HorizontalOptions="Center" Spacing="0" VerticalOptions="Center">
+                        <Label Text="Office" Margin="5" FontSize="Medium" FontAttributes="Bold" TextColor="Black"/>
+                        <Label Text="Your Name" Margin="5,0,0,5" TextColor="DarkGray" FontSize="Small" />
+                    </StackLayout>
+                    <Button IsEnabled="False" ImageSource="Butn.png"  Padding="0" Margin="80,0,0,0" CornerRadius="15" BackgroundColor="White"  TextColor="blue"/>
+                </StackLayout>
+            </Frame>
+
+                <StackLayout Spacing="0" Orientation="Horizontal" Margin="10,5,5,5" HorizontalOptions="FillAndExpand">
+                    <Frame BackgroundColor="White" WidthRequest="70" HeightRequest="100">
+                        <StackLayout HorizontalOptions="Center"  VerticalOptions="Center">
+                            <Frame BackgroundColor="Ivory" CornerRadius="100" Padding="15">
+                                <Image Source="Home.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30"></Image>
+                            </Frame>
+                            <Label Text="Request Money" HorizontalTextAlignment="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="White" Margin="5,0,0,0" WidthRequest="70" HeightRequest="100">
+                        <StackLayout HorizontalOptions="Center"  VerticalOptions="Center">
+                            <Frame BackgroundColor="Ivory" CornerRadius="100" Padding="15">
+                                <Image Source="Home.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30"></Image>
+                            </Frame>
+                            <Label Text="Request Money" HorizontalTextAlignment="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="White" Margin="5,0,0,0" WidthRequest="70" HeightRequest="100">
+                        <StackLayout HorizontalOptions="Center"  VerticalOptions="Center">
+                            <Frame BackgroundColor="Ivory" CornerRadius="100" Padding="15">
+                                <Image Source="Home.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30"></Image>
+                            </Frame>
+                            <Label Text="Request Money" HorizontalTextAlignment="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout Spacing="0" Orientation="Horizontal" Margin="10,0,5,5" HorizontalOptions="FillAndExpand">
+                    <Frame BackgroundColor="White" WidthRequest="70" HeightRequest="100">
+                        <StackLayout HorizontalOptions="Center"  VerticalOptions="Center">
+                            <Frame BackgroundColor="Ivory" CornerRadius="100" Padding="15">
+                                <Image Source="Home.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30"></Image>
+                            </Frame>
+                            <Label Text="Request Money" HorizontalTextAlignment="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="White" Margin="5,0,0,0" WidthRequest="70" HeightRequest="100">
+                        <StackLayout HorizontalOptions="Center"  VerticalOptions="Center">
+                            <Frame BackgroundColor="Ivory" CornerRadius="100" Padding="15">
+                                <Image Source="Home.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30"></Image>
+                            </Frame>
+                            <Label Text="Request Money" HorizontalTextAlignment="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame BackgroundColor="White" Margin="5,0,0,0" WidthRequest="70" HeightRequest="100">
+                        <StackLayout HorizontalOptions="Center"  VerticalOptions="Center">
+                            <Frame BackgroundColor="Ivory" CornerRadius="100" Padding="15">
+                                <Image Source="Home.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30"></Image>
+                            </Frame>
+                            <Label Text="Request Money" HorizontalTextAlignment="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+
+                <StackLayout x:Name="_Settings" Orientation="Horizontal" Spacing="0" Margin="0" Padding="15" BackgroundColor="White">
+                    <Image Source="Home.png" Aspect="AspectFit"  HeightRequest="30" Margin="15,0,0,0" WidthRequest="30"/>
+                    <Label Text="Settings" FontSize="Medium" Margin="15,0,0,0" TextColor="Black" VerticalOptions="Center"/>
+                    <Label Text=">" FontSize="Large" TextColor="Black" HorizontalOptions="EndAndExpand"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TapSettings}" 
+                                              Tapped="OnSettingsTapped"
+                                              CommandParameter="_Settings"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+
+                <Frame BackgroundColor="White" Padding="60,0,0,0" IsVisible="{Binding _SettingsTapped}" HeightRequest="270">
+                    <ListView x:Name="books"
+                              IsEnabled="True"
+                              SeparatorColor="DarkGray"
+                              
+                              ItemsSource="{Binding SettingsList}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell Text="{Binding .}"
+                                          TextColor="Black"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </Frame>
+
+
+                <StackLayout x:Name="_Settings1" Orientation="Horizontal" Spacing="0" Margin="0,5,0,0" Padding="15" BackgroundColor="White">
+                    <Image Source="Home.png" Aspect="AspectFit"  HeightRequest="30" Margin="15,0,0,0" WidthRequest="30"/>
+                    <Label Text="Help and Support" FontSize="Medium" Margin="15,0,0,0" TextColor="Black" VerticalOptions="Center"/>
+                    <Label Text=">" FontSize="Large" TextColor="Black" HorizontalOptions="EndAndExpand"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TapHelp}"
+                                              Tapped="OnHelpSupportTapped"
+                                              CommandParameter="_Settings1"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+
+                <Frame BackgroundColor="White" Padding="60,0,0,0" IsVisible="{Binding _HelpTapped}" HeightRequest="135">
+                    <ListView x:Name="books1"
+                              IsEnabled="True"
+                              SeparatorColor="DarkGray"
+                              
+                              ItemsSource="{Binding HelpSupport}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell Text="{Binding .}"
+                                          TextColor="Black"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </Frame>
+
+                <StackLayout x:Name="_Settings2" Orientation="Horizontal" Spacing="0" Margin="0,5,0,0" Padding="15" BackgroundColor="White">
+                    <Image Source="Home.png" Aspect="AspectFit"  HeightRequest="30" Margin="15,0,0,0" WidthRequest="30"/>
+                    <Label Text="About Us" FontSize="Medium" Margin="15,0,0,0" TextColor="Black" VerticalOptions="Center"/>
+                    <Label Text=">" FontSize="Large" TextColor="Black" HorizontalOptions="EndAndExpand"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TapAbout}"
+                                              Tapped="OnAboutTapped"
+                                              CommandParameter="_Settings1"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+
+                <Frame BackgroundColor="White" Padding="60,0,0,0" IsVisible="{Binding _AboutTapped}" HeightRequest="135">
+                    <ListView x:Name="books2"
+                              IsEnabled="True"
+                              SeparatorColor="DarkGray"
+                              
+                              ItemsSource="{Binding AboutList}">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextCell Text="{Binding .}"
+                                          TextColor="Black"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+
+                </Frame>
+
+                <StackLayout x:Name="_Settings3" Orientation="Horizontal" Spacing="0" Margin="0,5,0,5" Padding="15" BackgroundColor="White">
+                    <Image Source="Home.png" Aspect="AspectFit"  HeightRequest="30" Margin="15,0,0,0" WidthRequest="30"/>
+                    <Label Text="Invite your freinds to use KhataBook" FontSize="Small" Margin="15,0,0,0" TextColor="Black" VerticalOptions="Center"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding TapLink}"
+                                              CommandParameter="_Settings1"/>
+                    </StackLayout.GestureRecognizers>
+                </StackLayout>
+                
+            </StackLayout>
+
+
+        </ScrollView>
+    </StackLayout>
 </ContentPage>

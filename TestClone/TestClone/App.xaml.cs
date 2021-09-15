@@ -12,9 +12,7 @@ namespace TestClone
         public App()
         {
             InitializeComponent();
-            List<string> KhataBook=  new List<string>();
-            HomeViewModel hs = new HomeViewModel();
-            KhataBook = hs.Khatabook;
+            
             
             /*
             if (KhataBook==null||KhataBook.Count==0)

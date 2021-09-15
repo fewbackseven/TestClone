@@ -5,19 +5,29 @@ using TestClone.ViewModel;
 
 namespace TestClone.Model
 {
-    public class DataToWork
+    public class khata
     {
-        
-
-        public static List<string> KhataBook()
-        {
-            List<string> KhataBook = new List<string>();
-            KhataBook.Add("Office1");
-            KhataBook.Add("Office2");
-            KhataBook.Add("Office3");
-            KhataBook.Add("Office4");
-            return KhataBook;
-        }
-
+        public  string book { get; set; }
     }
+    public  class DataToWork
+    {
+        public List<string> KhataBook()
+        {
+            List<string> kh = new List<string>();
+            kh.Add( "Office1" );
+            kh.Add("Office2" );
+            return kh;
+        }
+                      
+        public List<khata> listofKhatas()
+        {
+            List<khata> khatas = new List<khata>();
+            khatas.Add(new khata { book = "Khata1" });
+            khatas.Add(new khata { book = "Khata2" });
+            return khatas;
+        }
+    }
+    
+
+
 }

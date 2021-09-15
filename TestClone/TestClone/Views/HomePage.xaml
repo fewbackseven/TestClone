@@ -55,14 +55,14 @@
 
                 </StackLayout>
             </Frame>
-            <Frame BackgroundColor="White" Grid.Row="3"  Margin="0,50,0,0" IsVisible="False" Padding="0,10,25,10">
+            <Frame BackgroundColor="White" Grid.Row="3"  Margin="0,50,0,0" IsVisible="True" Padding="0,10,25,10">
                 <StackLayout Orientation="Horizontal">
                     <SearchBar Placeholder="Search Customer" BackgroundColor="WhiteSmoke" HorizontalOptions="Start"  ></SearchBar>
                     <!--<Entry Placeholder="Search" PlaceholderColor="Black" BackgroundColor="WhiteSmoke" HorizontalOptions="Start"/>-->
                     <Image Source="Home.png" Aspect="AspectFit" HeightRequest="30" WidthRequest="30" HorizontalOptions="End"/>
                 </StackLayout>
             </Frame>
-            <Frame BackgroundColor="WhiteSmoke" Grid.Row="4" Padding="0" IsVisible="False" Margin="0,60,0,0">
+            <Frame BackgroundColor="WhiteSmoke" Grid.Row="4" Padding="0" IsVisible="True" Margin="0,60,0,0">
                                
             </Frame>
             <Frame BackgroundColor="Purple" Grid.Row="5" Margin="150,0,20,80" CornerRadius="25" Padding="0" >

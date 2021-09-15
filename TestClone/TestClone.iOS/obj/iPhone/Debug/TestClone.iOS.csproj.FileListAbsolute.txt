@@ -56,3 +56,6 @@ C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.iOS\obj\iPhone
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.iOS\obj\iPhone\Debug\TestClone.iOS.csproj.CopyComplete
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.iOS\obj\iPhone\Debug\TestClone.iOS.exe
 C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.iOS\obj\iPhone\Debug\TestClone.iOS.pdb
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.iOS\bin\iPhone\Debug\Xamarin.CommunityToolkit.Markup.dll
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.iOS\bin\iPhone\Debug\MvvmHelpers.dll
+C:\Users\Vaishishtya_1\source\repos\TestClone\TestClone\TestClone.iOS\bin\iPhone\Debug\MvvmHelpers.pdb

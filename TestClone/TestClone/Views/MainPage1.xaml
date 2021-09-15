@@ -30,11 +30,16 @@
         </ResourceDictionary>
     </Shell.Resources>
 
+    <!--<Shell.Items>
+        <ShellSection Title="Office" Icon="Rupee.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MoneyPage}"/>
+        </ShellSection>
+    </Shell.Items>-->
 
     <TabBar >
-        <Tab Title="Home" Route="HomePage" Icon="Home.png" >
+        <Tab Title="Home" Route="HomePage1" Icon="Home.png" >
             
-            <ShellContent ContentTemplate="{DataTemplate local:HomePage}"/>
+            <ShellContent ContentTemplate="{DataTemplate local:HomePage1}"/>
         </Tab>
     
     
@@ -48,6 +53,7 @@
                 <FontImageSource FontFamily="FASolid" Glyph="{x:Static helpers:FAIcons.CowbellMore}"/>
             </Tab.Icon>
             <ShellContent ContentTemplate="{DataTemplate local:MorePage}"/>
+            
         </Tab>
     </TabBar>
     

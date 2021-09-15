@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImageSource="HalfBlue1.png"
+             x:Class="TestClone.Views.HomePage1">
+
+    <StackLayout>
+        <Frame x:Name="_Header" BackgroundColor="#99CCFF" Margin="0"  CornerRadius="0" HasShadow="False">
+            <StackLayout  Orientation="Horizontal"   >
+                <Image x:Name="File_Image" Source="book1.png" Aspect="AspectFit" HorizontalOptions="Start" VerticalOptions="Start" HeightRequest="30" WidthRequest="30" ></Image>
+                <Label x:Name="Book" Text="Office" HorizontalTextAlignment="Start" VerticalOptions="Start" HorizontalOptions="StartAndExpand" TextColor="PaleVioletRed" FontSize="20" FontAttributes="Bold"/>
+                <Image Source="Rupee.png" Aspect="AspectFit" HeightRequest="30" WidthRequest="30" HorizontalOptions="End" VerticalOptions="Start"></Image>
+            </StackLayout>
+        </Frame>
+
+        <StackLayout Spacing="0" Padding="0" Margin="0" HeightRequest="120">
+        <Frame x:Name="_Report" Margin="25,0,25,0" Padding="0" HeightRequest="250" CornerRadius="5">
+            <StackLayout  HorizontalOptions="Center" BackgroundColor="White" HeightRequest="250" Padding="0" Spacing="0">
+
+                <StackLayout Orientation="Horizontal" Padding="0"  Spacing="0.1" >
+                    <Frame Margin="0" HeightRequest="200" CornerRadius="0" Opacity="0.95" WidthRequest="160" Padding="0,5,0,0">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="0"  Padding="0" >
+                            <Label Text="Rs.0" FontSize="24" HorizontalOptions="Center" TextColor="Green" ></Label>
+                            <Label Text="you will give" FontSize="Small" HorizontalOptions="Center" TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Margin="0" HeightRequest="200"  CornerRadius="0" Opacity="0.95" WidthRequest="160" Padding="0,5,0,0">
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="0" Padding="0">
+                            <Label Text="Rs.0" FontSize="24" HorizontalOptions="Center" TextColor="Red"></Label>
+                            <Label Text="you will get" HorizontalOptions="Center" FontSize="Small" TextColor="Black"/>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+                <StackLayout HorizontalOptions="Center" HeightRequest="50" Padding="0,10,0,0">
+                    <Label Text="View Report >" TextColor="Blue"  FontSize="Medium"></Label>
+                </StackLayout>
+
+            </StackLayout>
+        </Frame>
+        </StackLayout>
+        <Frame x:Name="_SearchBar" 
+               BackgroundColor="White" 
+               Margin="0,10,0,0" 
+               IsVisible="True" Padding="0,10,25,10">
+            <StackLayout Orientation="Horizontal">
+                <SearchBar Placeholder="Search Customer" BackgroundColor="WhiteSmoke" HorizontalOptions="Start"  ></SearchBar>
+                <!--<Entry Placeholder="Search" PlaceholderColor="Black" BackgroundColor="WhiteSmoke" HorizontalOptions="Start"/>-->
+                <Image Source="Home.png" Aspect="AspectFit" HeightRequest="30" WidthRequest="30" HorizontalOptions="End"/>
+            </StackLayout>
+        </Frame>
+    
+    <StackLayout Spacing="-90" Padding="0" Margin="0,70,0,0">
+            
+            <Grid RowSpacing="0" ColumnSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+            </Grid>
+        <Frame Grid.Row="0" 
+               Grid.RowSpan="2"
+               BackgroundColor="WhiteSmoke" 
+               Padding="0" 
+               HeightRequest="350" 
+               IsVisible="True" Margin="0,10,0,0">
+                <ListView x:Name="books" 
+                          ItemsSource="{Binding SearchResults}"
+                          SeparatorColor="DarkGray">
+                    
+                </ListView>
+        </Frame>
+        <Frame Grid.Row="1" BackgroundColor="Purple" Margin="150,0,20,40" CornerRadius="25" Padding="10" >
+            <StackLayout Orientation="Horizontal"  HorizontalOptions="Center">
+                <Image Source="Home.png"  Aspect="AspectFit" WidthRequest="30" HeightRequest="30"></Image>
+                <Label Text="ADD CUSTOMER" VerticalOptions="Center" TextColor="White" FontSize="Small"/>
+
+            </StackLayout>
+        </Frame>
+        </StackLayout>
+
+    </StackLayout>
+    
+</ContentPage>

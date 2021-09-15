@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gp8Sghdnw9YLOEhBuwf796cUQ4R/7iXMan+7JTChW0deyGQ+6HBLg+9VCdwt+ScXpRVohUM6ff9wXFA5OAIK2A==",
+  "dgSpecHash": "Tr1nuolOeZpf955Fvb6hohGD08Vf9tO3LGP/wIe+gHZtVROELq5SPRjt1Wpj23vEyCRP2J91kub8KAgK0srRFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Vaishishtya_1\\source\\repos\\TestClone\\TestClone\\TestClone.Android\\TestClone.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
     "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.androidx.activity\\1.2.0.1\\xamarin.androidx.activity.1.2.0.1.nupkg.sha512",
     "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.androidx.annotation\\1.1.0.9\\xamarin.androidx.annotation.1.1.0.9.nupkg.sha512",
     "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.0.0.9\\xamarin.androidx.annotation.experimental.1.0.0.9.nupkg.sha512",
@@ -53,6 +55,7 @@
     "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.1.7\\xamarin.androidx.versionedparcelable.1.1.1.7.nupkg.sha512",
     "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.7\\xamarin.androidx.viewpager.1.0.0.7.nupkg.sha512",
     "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.androidx.viewpager2\\1.0.0.8\\xamarin.androidx.viewpager2.1.0.0.8.nupkg.sha512",
+    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.communitytoolkit.markup\\1.2.0\\xamarin.communitytoolkit.markup.1.2.0.nupkg.sha512",
     "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
     "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512",
     "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.google.android.material\\1.2.1.1\\xamarin.google.android.material.1.2.1.1.nupkg.sha512",
