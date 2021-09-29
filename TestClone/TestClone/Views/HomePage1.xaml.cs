@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using TestClone.ViewModel;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +16,7 @@ namespace TestClone.Views
         public HomePage1()
         {
             InitializeComponent();
+            BindingContext = new HomePage1ViewModel();
         }
     }
 }

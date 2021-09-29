@@ -1,17 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "I9E/FuQVO4XQZB+67tVjjMQ1To1iM/cvxYfgSfe+36eoOG3mEQm0OE1wyHAGq0t6s3f03v3nTrBrf6V30EEndw==",
+  "dgSpecHash": "Cw9pl1AVi9pA/qyF2x9mla4Dkq3kQIaFawU1K1j+aIyper9EmGDsb6RnzjSsO7DtoykQmpHP+5XDyBeZWnQKDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vaishishtya_1\\source\\repos\\TestClone\\TestClone\\TestClone\\TestClone.csproj",
+  "projectFilePath": "C:\\Users\\admin\\Source\\Repos\\TestClone\\TestClone\\TestClone\\TestClone.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
-    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
-    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.communitytoolkit.markup\\1.2.0\\xamarin.communitytoolkit.markup.1.2.0.nupkg.sha512",
-    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\Vaishishtya_1\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
+    "C:\\Users\\admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\xamarin.communitytoolkit.markup\\1.2.0\\xamarin.communitytoolkit.markup.1.2.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\admin\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
   ],
   "logs": []
 }

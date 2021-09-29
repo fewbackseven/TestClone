@@ -48,10 +48,8 @@
             <ShellContent ContentTemplate="{DataTemplate local:MoneyPage}"/>
         </Tab>
 
-        <Tab Title="More" Route="MorePage">
-            <Tab.Icon>
-                <FontImageSource FontFamily="FASolid" Glyph="{x:Static helpers:FAIcons.CowbellMore}"/>
-            </Tab.Icon>
+        <Tab Title="More" Route="MorePage" Icon="More.png">
+            
             <ShellContent ContentTemplate="{DataTemplate local:MorePage}"/>
             
         </Tab>
